@@ -38,7 +38,7 @@ if (answer3.toLowerCase() === 'y' || answer3.toUpperCase() === 'YES') {
 } else {
   alert ('You are no fun today.');
 }
-
+// Make sure to do good console.log statements.
 var answer4 = prompt('Do I have a pet?');
 console.log('Question 4 ' + answer4);
 if (answer4.toLowerCase() === 'n' || answer4.toUpperCase() === 'NO') {
