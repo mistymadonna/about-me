@@ -3,7 +3,7 @@
 var userName = prompt('What is your name?');
 console.log('Their name is ' + userName);
 
-alert('Hey y\'all, and hey ' + userName + ', Let\'s get to know each other. I\'m going to ask you some questions about me. Please answer Y or N.');
+alert('Hey y\'all, and hey ' + userName + ', Let\'s get to know each other. I\'m gonna ask you some questions about me. Please answer Y or N. Let\'s do this');
 
 var answer1 = prompt('Am I from Seattle?');
 console.log('Answer to Question 1 was ' + answer1);
