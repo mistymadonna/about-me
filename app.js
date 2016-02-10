@@ -38,3 +38,13 @@ if (answer3.toLowerCase() === 'y' || answer3.toUpperCase() === 'YES') {
 } else {
   alert ('You are no fun today.');
 }
+
+var answer 4 = prompt('Do I have a pet?');
+console.log('Question 4 ' + answer4);
+if (answer4.toLowerCase() === 'n' || answer4.toUpperCase() === 'NO') {
+  alert('Wrongo.');
+} else if (answer4.toLowerCase() === 'y' || answer4.toUpperCase() === 'YES'){
+  alert('You\'re good at this!');
+} else {
+  alert('So you\'re a comedian today.');
+}
