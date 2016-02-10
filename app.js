@@ -11,7 +11,30 @@ if (answer1.toLowerCase() === 'n' || answer1.toUpperCase() === 'NO') {
   alert('Nice! Memphis born and raised.');
   console.log(userName + ' nailed Question 1');
 } else if (answer1.toLowerCase() === 'y' || answer1.toUpperCase() ==='YES') {
-  alert('Nope!!! ' +userName);
+  alert('Nope, '  +userName);
 } else {
   alert('C\'mon now.. I said answer with Y or N');
+}
+
+var answer2 = prompt('Do I like hot weather?');
+console.log('Question 2 answer ' +answer2);
+if (answer2.toLowerCase() === 'n' || answer2.toUpperCase() === 'NO') {
+    alert('Not even close.');
+    console.log(userName + ' incorrect answer');
+} else if (answer2.toLowerCase() === 'y' || answer2.toUpperCase() === 'YES') {
+    alert('You\'re awesome and correct.');
+    console.log(userName + 'correct answer');
+} else {
+  alert ('You gotta follow the instructions now.');
+}
+
+var answer3 = prompt('Am I outdoorsy?');
+console.log('Question 3 answer ' + answer3);
+if (answer3.toLowerCase() === 'y' || answer3.toUpperCase() === 'YES') {
+  alert('Yep!');
+  console.log(userName + 'correct answer again');
+} else if (answer3.toLowerCase() === 'n' || answer3.toUpperCase() === 'NO') {
+  alert('Sorry, nope.');
+} else {
+  alert ('You are no fun today.');
 }
