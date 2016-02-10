@@ -10,7 +10,7 @@ console.log('Answer to Question 1 was ' + answer1);
 if (answer1.toLowerCase() === 'n' || answer1.toUpperCase() === 'NO') {
   alert('Nice! Memphis born and raised.');
   console.log(userName + ' nailed Question 1');
-} else if (answer1.toLowerCase() === 'y' || answer1.toUpperCase() ==='YES') {
+} else if (answer1.toLowerCase() === 'y' || answer1.toUpperCase() === 'YES') {
   alert('Nope, '  + userName + ' !');
 } else {
   alert('C\'mon now.. I said answer with Y or N');
