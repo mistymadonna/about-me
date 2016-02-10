@@ -23,7 +23,7 @@ if (answer2.toLowerCase() === 'n' || answer2.toUpperCase() === 'NO') {
     console.log(userName + ' incorrect answer');
 } else if (answer2.toLowerCase() === 'y' || answer2.toUpperCase() === 'YES') {
     alert('You\'re awesome and correct.');
-    console.log(userName + 'correct answer');
+    console.log(userName + ' correct answer');
 } else {
   alert ('You gotta follow the instructions now.');
 }
@@ -32,7 +32,7 @@ var answer3 = prompt('Am I outdoorsy?');
 console.log('Question 3 answer ' + answer3);
 if (answer3.toLowerCase() === 'y' || answer3.toUpperCase() === 'YES') {
   alert('Yep!');
-  console.log(userName + 'correct answer again');
+  console.log(userName + ' correct answer again');
 } else if (answer3.toLowerCase() === 'n' || answer3.toUpperCase() === 'NO') {
   alert('Sorry, nope.');
 } else {
