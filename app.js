@@ -46,5 +46,15 @@ if (answer4.toLowerCase() === 'n' || answer4.toUpperCase() === 'NO') {
 } else if (answer4.toLowerCase() === 'y' || answer4.toUpperCase() === 'YES'){
   alert('You\'re good at this!');
 } else {
-  alert('So you\'re a comedian today.');
+  alert('So, you\'re a comedian today.');
+}
+
+var answer5 = prompt('Do I like seafood?');
+console.log('the important question ' + answer5);
+if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
+  alert('Dude! Pike Place Chowder is the bomb!');
+} else if (answer5.toLowerCase() === 'n' || answer5.toUpperCase() === 'NO') {
+  alert('You don\'t know me at all, sucka.');
+} else {
+  alert('Lame-o.');
 }
