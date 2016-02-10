@@ -11,21 +11,21 @@ if (answer1.toLowerCase() === 'n' || answer1.toUpperCase() === 'NO') {
   alert('Nice! Memphis born and raised.');
   console.log(userName + ' nailed Question 1');
 } else if (answer1.toLowerCase() === 'y' || answer1.toUpperCase() === 'YES') {
-  alert('Nope, '  + userName + ' !');
+  alert('Nope, ' + userName + ' !');
 } else {
   alert('C\'mon now.. I said answer with Y or N');
 }
 
 var answer2 = prompt('Do I like hot weather?');
-console.log('Question 2 answer ' +answer2);
+console.log('Question 2 answer ' + answer2);
 if (answer2.toLowerCase() === 'n' || answer2.toUpperCase() === 'NO') {
-    alert('Not even close.');
-    console.log(userName + ' incorrect answer');
+  alert('Not even close.');
+  console.log(userName + ' incorrect answer');
 } else if (answer2.toLowerCase() === 'y' || answer2.toUpperCase() === 'YES') {
-    alert('You\'re awesome and correct.');
-    console.log(userName + ' correct answer');
+  alert('You\'re awesome and correct.');
+  console.log(userName + ' correct answer');
 } else {
-  alert ('You gotta follow the instructions now.');
+  alert('You gotta follow the instructions now.');
 }
 
 var answer3 = prompt('Am I outdoorsy?');
@@ -36,14 +36,14 @@ if (answer3.toLowerCase() === 'y' || answer3.toUpperCase() === 'YES') {
 } else if (answer3.toLowerCase() === 'n' || answer3.toUpperCase() === 'NO') {
   alert('Sorry, nope.');
 } else {
-  alert ('You are no fun today.');
+  alert('You are no fun today.');
 }
 // Make sure to do good console.log statements
 var answer4 = prompt('Do I have a pet?');
 console.log('Question 4 ' + answer4);
 if (answer4.toLowerCase() === 'n' || answer4.toUpperCase() === 'NO') {
   alert('Wrongo.');
-} else if (answer4.toLowerCase() === 'y' || answer4.toUpperCase() === 'YES'){
+} else if (answer4.toLowerCase() === 'y' || answer4.toUpperCase() === 'YES') {
   alert('You\'re good at this!');
 } else {
   alert('So, you\'re a comedian today.');
