@@ -87,23 +87,23 @@ if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
 
 
 // here is the syntax for a for loop.
-//for (var i = startValue;i < endValue; i+=stepValue) {
+//for (var i = startValue;i < endValue; i+=stepValue)
 
 var faveNum = 7;
 var faveNumGuess;
 for (var i = 0; i < 4; i++) {
   faveNumGuess = prompt('Guess my favorite number!')
-}
 
-console.log('faveNum: ' + faveNum);
-if (faveNum > 7) {
-  alert('A little too high..');
-} else if (faveNum < 7) {
-  alert('Not quite there yet..');
-} else if (faveNum === 7) {
-  alert('You are the bomb!');
-} else if (typeof(faveNum) === 'number') {
-  alert('Enter a number, dumbass');
-} else {
-  alert('How did you get here?');
+  console.log('faveNum: ' + faveNum);
+  if (faveNumGuess > 7) {
+    alert('A little too high..');
+  } else if (faveNumGuess < 7) {
+    alert('Not quite there yet..');
+  } else if (faveNumGuess === 7) {
+    alert('You are the bomb!');
+  } else if (typeof(faveNumGuess) === 'number') {
+    alert('Please enter a number.');
+  } else {
+    alert('How did you get here?');
+  }
 }
