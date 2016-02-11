@@ -1,14 +1,19 @@
 body {
-    background-color: #68D1F6;}
+    background-color: #68D1F6;
+}
 
 h1 {
-  background-color: white;}
+  background-color: white;
+}
 h2 {
-  background-color: #D5D5D5;}
+   background-color: #D5D5D5;
+}
 ul {
-  background-color: #34444F;}
+  background-color: #34444F;
+}
 ol {
-  background-color: #0096DB}
+  background-color: #0096DB;
+}
 
 header {
     text-align: center;
