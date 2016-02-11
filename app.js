@@ -92,18 +92,31 @@ if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
 var faveNum = 7;
 var faveNumGuess;
 for (var i = 0; i < 4; i++) {
-  faveNumGuess = prompt('Guess my favorite number!')
+  faveNumGuess = prompt('Guess my favorite number!');
 
   console.log('faveNum: ' + faveNum);
+  faveNumGuess = parseInt(faveNumGuess);
   if (faveNumGuess > 7) {
     alert('A little too high..');
   } else if (faveNumGuess < 7) {
     alert('Not quite there yet..');
   } else if (faveNumGuess === 7) {
     alert('You are the bomb!');
-  } else if (typeof(faveNumGuess) === 'number') {
+  } else if (typeof(faveNumGuess) !== 'number') {
     alert('Please enter a number.');
   } else {
     alert('How did you get here?');
   }
 }
+
+var faveCities = ['London', 'Chicago', 'New Orleans', 'Los Angeles', 'Destin'];
+var cityGuess = prompt('Can you name two of Misty\'s favorite cities?');
+for (var i = 0; i < faveCities.length; i++) {
+  console.log(faveCities[i]);
+  if (cityGuess === faveCities[i]) {
+    alert('YES');
+  } else {
+    alert('NO');
+  }
+}
+alert('THE END');
