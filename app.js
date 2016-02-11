@@ -59,20 +59,36 @@ if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
   alert('Lame-o.');
 }
 
+//this was a while loop but it doesn't work for the assignment bc it should be a for loop.
+// console.log('before the while loop faveNum is' + faveNum);
+// while (faveNum !== 7) {
+//   var faveNum = parseInt(prompt('What is Misty\'s favorite number?'));
+//   console.log('faveNum: ' + faveNum);
+//   if (faveNum > 7) {
+//     alert('A little too high..');
+//   } else if (faveNum < 7) {
+//     alert('Not quite there yet..');
+//   } else if (faveNum === 7) {
+//     alert('You are the bomb!');
+//   } else if (typeof(faveNum) === 'number') {
+//     alert('Enter a number, dumbass');
+//   } else {
+//     alert('How did you get here?');
+//   }
+// }
+//}
 
-console.log('before the while loop faveNum is' + faveNum);
-while (faveNum !== 7) {
-  var faveNum = parseInt(prompt('What is Misty\'s favorite number?'));
-  console.log('faveNum: ' + faveNum);
-  if (faveNum > 7) {
-    alert('A little too high..');
-  } else if (faveNum < 7) {
-    alert('Not quite there yet..');
-  } else if (faveNum === 7) {
-    alert('You are the bomb!');
-  } else if (typeof(faveNum) === 'number') {
-    alert('Enter a number, dumbass');
-  } else {
-    alert('How did you get here?');
-  }
+
+var i = 0;
+while (i < 4){
+
+  i++;
+}
+// here is the syntax for a for loop.
+//for (var i = startValue;i < endValue; i+=stepValue) {
+
+var faveNum = 7;
+var faveNumGuess;
+for (var i = 0; i < 4; i++){
+  faveNumGuess = prompt('Guess my favorite number!')
 }
