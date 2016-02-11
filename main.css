@@ -1,0 +1,16 @@
+body {
+    background-color: #68D1F6;
+}
+
+header {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family:"Helvetica";
+}
+
+h1,h2 {
+    font-family:"Helvetica";
