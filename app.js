@@ -78,17 +78,32 @@ if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
 // }
 //}
 
+//this is used if you want to use a while loop and make it run like a for loop.
+//var i = 0;
+//while (i < 4){
 
-var i = 0;
-while (i < 4){
+//  i++;
+//}
 
-  i++;
-}
+
 // here is the syntax for a for loop.
 //for (var i = startValue;i < endValue; i+=stepValue) {
 
 var faveNum = 7;
 var faveNumGuess;
-for (var i = 0; i < 4; i++){
+for (var i = 0; i < 4; i++) {
   faveNumGuess = prompt('Guess my favorite number!')
+}
+
+console.log('faveNum: ' + faveNum);
+if (faveNum > 7) {
+  alert('A little too high..');
+} else if (faveNum < 7) {
+  alert('Not quite there yet..');
+} else if (faveNum === 7) {
+  alert('You are the bomb!');
+} else if (typeof(faveNum) === 'number') {
+  alert('Enter a number, dumbass');
+} else {
+  alert('How did you get here?');
 }
