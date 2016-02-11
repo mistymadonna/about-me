@@ -58,3 +58,21 @@ if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
 } else {
   alert('Lame-o.');
 }
+
+
+console.log('before the while loop faveNum is' + faveNum);
+while (faveNum !== 7) {
+  var faveNum = parseInt(prompt('What is Misty\'s favorite number?'));
+  console.log('faveNum: ' + faveNum);
+  if (faveNum > 7) {
+    alert('A little too high..');
+  } else if (faveNum < 7) {
+    alert('Not quite there yet..');
+  } else if (faveNum === 7) {
+    alert('You are the bomb!');
+  } else if (typeof(faveNum) === 'number') {
+    alert('Enter a number, dumbass');
+  } else {
+    alert('How did you get here?');
+  }
+}
