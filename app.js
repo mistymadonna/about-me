@@ -102,6 +102,7 @@ for (var i = 0; i < 4; i++) {
     alert('Not quite there yet..');
   } else if (faveNumGuess === 7) {
     alert('You are the bomb!');
+    i = 4;
   } else if (typeof(faveNumGuess) !== 'number') {
     alert('Please enter a number.');
   } else {
@@ -110,6 +111,8 @@ for (var i = 0; i < 4; i++) {
 }
 
 var faveCities = ['London', 'Chicago', 'New Orleans', 'Los Angeles', 'Destin'];
+var correctGuesses = [];
+correctGuesses.push('[]')
 var cityGuess = prompt('Can you name two of Misty\'s favorite cities?');
 for (var i = 0; i < faveCities.length; i++) {
   console.log(faveCities[i]);
