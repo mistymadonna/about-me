@@ -91,10 +91,13 @@ if (answer5.toLowerCase() === 'y' || answer5.toUpperCase() === 'YES') {
 
 var faveNum = 7;
 var faveNumGuess;
+
+console.log('faveNum: ' + faveNum);
+
 for (var i = 0; i < 4; i++) {
   faveNumGuess = prompt('Guess my favorite number!');
-
-  console.log('faveNum: ' + faveNum);
+  if (isNan(faveNumGuess))
+    return;
   faveNumGuess = parseInt(faveNumGuess);
   if (faveNumGuess > 7) {
     alert('A little too high..');
